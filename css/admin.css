@@ -1,0 +1,401 @@
+/*
+Author:sahar;
+Theme:Food Order Website Admin;
+Version:1.0;
+*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+
+    margin-bottom: 10;
+
+
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+/*Manage Admin table css */
+.tbl_full {
+    width: 100%;
+}
+
+table tr th {
+    border-bottom: 1px solid #003262;
+    padding: 1%;
+    text-align: left;
+    color: #003262;
+}
+
+table tr td {
+    padding: 1%;
+}
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Cambay:ital@1&family=Ysabeau:ital,wght@1,300;1,400;1,500;1,600;1,700;1,1000&display=swap');
+
+.btn-primary {
+    background-color: #54a0ff;
+    
+    padding: 1%;
+    color: #F0F8FF;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: bolder;
+    
+   
+}
+
+.btn-primary:hover {
+    background-color: #0984e3;
+}
+
+
+
+.btn-secondary {
+    background-color: #1abc9c;
+    padding: 1%;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-secondary:hover {
+    background-color: #16a085;
+}
+
+.btn-danger {
+    background-color: #ff7979;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-danger:hover {
+    background-color: #eb4d4b;
+}
+
+.add-btn{
+    background-color: #00B9E8;
+    font-family: 'Cambay', sans-serif;
+    border-radius: 15px;
+    padding:10px 40px;
+    
+}
+.btns{
+    border-radius: 15%;
+}
+
+/* css for "add admin" page table */
+.tbl-30 {
+    width: 40%;
+    color: #003262;
+}
+
+/*css for message de requete de suppression admin*/
+
+  @import url('https://fonts.googleapis.com/css2?family=Cambay:ital@1&family=Nunito+Sans:wght@300&family=Poppins:ital,wght@1,500&family=Ysabeau:ital,wght@1,300;1,400;1,500;1,600;1,700;1,1000&display=swap');
+
+.success {
+    background-color: #27ae60;
+    color:rgb(243, 243, 198);
+    width:50%;
+    text-align: center;
+    font-size:medium;
+    font-family: 'Nunito Sans', sans-serif;
+    margin: auto auto;
+
+   
+
+}
+
+.error {
+    background-color: #C51E3A;
+    color:rgb(243, 243, 198);
+    width:100%;
+    padding: 1%;
+    text-align: center;
+    font-size:medium;
+    font-family: 'Nunito Sans', sans-serif;
+
+    
+}
+
+
+/*css for menu*/
+.menu {
+    border-bottom: 1px solid #003262;
+    background-color: #2e5090;
+}
+
+.menu ul {
+    list-style-type: none;
+}
+
+.menu ul li {
+    display: inline;
+    padding: 1%;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #61e2ff;
+}
+
+.menu ul li a:hover {
+    color: aqua;
+}
+
+/*css for main content*/
+.main_content {
+    background-color: #f1f2f6;
+    padding: 10% 0;
+
+}
+
+.col-4 {
+    width: 18%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    border: 1px solid #7C9ED9;
+    border-radius: 25px;
+    box-shadow: 6px 7px #7C9ED9;
+    padding-top: 3%;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.clearfix {
+    float: none;
+    clear: both;
+}
+
+/*dashboard css*/
+
+/*page title*/
+
+@import url('https://fonts.googleapis.com/css2?family=Cambay:ital@1&family=Ysabeau:ital,wght@1,300;1,400;1,500;1,600;1,700;1,1000&display=swap');
+
+.title {
+    font-size: 40px;
+    font-style: italic;
+    color: #4169E1;
+    font-family: 'Cambay', sans-serif;
+    font-family: 'Ysabeau', sans-serif;
+
+}
+
+/*card text */
+.card-title {
+
+    font-family: 'Ysabeau', sans-serif;
+    font-weight: bolder;
+}
+
+/*card statistic*/
+.stat {
+
+    color: #00009C;
+}
+
+
+
+
+/*footer css*/
+.footer {
+    background-color: #7C9ED9;
+    color: white;
+
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin-top: 0;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Cambay:ital@1&family=Ysabeau:ital,wght@1,300;1,400;1,500;1,600;1,700;1,1000&display=swap');
+
+.text {
+    font-family: 'Cambay', sans-serif;
+    color: #2d3436;
+
+}
+
+.text a {
+    font-family: 'Ysabeau', sans-serif;
+    font-size: 20px;
+    color: #576574;
+}
+
+
+/*CSS for login page*/
+.login {
+    /* border: 1px solid gray;
+     */
+    width: 33%;
+    margin: 10% auto;
+    padding: 2%;
+
+    /* border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    background-color: #F5E0E2; */
+
+}
+
+body {
+    background-image: url("../images/admin/back.jpg");
+    background-size: cover;
+}
+
+.inputt {
+    height: 45px;
+    width: 80%;
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    padding: 0 45px;
+    background: rgba(61, 46, 46, 0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+
+}
+
+p a {
+    text-decoration: none;
+    color: gray;
+}
+
+p {
+    color: #2d3436;
+    font-style: italic;
+
+}
+
+
+.input-wrapper {
+    position: relative;
+}
+
+i {
+    position: absolute;
+    top: 28%;
+    left: 55px;
+
+}
+
+input:focus {
+    outline: none;
+    background-color: beige;
+}
+
+
+input[type="submit"] {
+    background-color: #00cec9;
+
+}
+
+
+/* end login page css */
+
+/*update forms  in admin part css*/
+.update{
+    background-color: #c8d6e5;
+    padding: 13% 0;
+}
+.inputt-update{
+
+    height: 35px;
+    width: 90%;
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    padding: 0 45px;
+    background: rgba(151, 26, 26, 0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+.btn-update {
+border: none;
+
+padding: 10px 10%;
+border-radius: 10px;
+color:#F0F8FF;
+font-size: 17px;
+
+
+}
+.label{
+    color:#054b45;
+}
+
+
+
+
+.update-title{
+font-style: italic ;
+    font-size: 32px;
+    color: #1289A7;
+
+}
+textarea{
+    background-color:rgba(151, 26, 26, 0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border-color: #bbbcbd;
+    padding-top: 20px;
+    padding-left: 20px;
+
+}
+select{
+    width: 90%;
+    padding: 6px 45px;
+    border-radius: 10px;
+      
+    background: rgba(151, 26, 26, 0.1);
+}
+
+
+
+
+
+.message{
+    position: sticky;
+    top:0;
+    max-width: 1200px;
+    margin:0 auto;
+    background-color: var(--light-bg);
+    padding:2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:1.5rem;
+    z-index: 1100;
+ }
+ 
+ .message span{
+    font-size: 2rem;
+    color:var(--black);
+ }
+ 
+ .message i{
+    cursor: pointer;
+    color:var(--red);
+    font-size: 2.5rem;
+ }
+ 
+ .message i:hover{
+    color:var(--black);
+ }
